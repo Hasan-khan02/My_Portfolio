@@ -1,0 +1,94 @@
+.footer {
+  margin: 50px 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+#logof{
+    width: 5vw;
+    height: auto;
+    border-radius: 1000px;
+    border: 5px double white;
+    cursor: pointer;
+    transition: border-color 2s ease;
+}
+#logof:hover {
+  border-color: #B923E1;
+}
+.footer-top-left p {
+  font-size: 15px;
+  max-width: 500px;
+  margin-top: 8%;
+}
+.footer-top-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10%;
+}
+.footer-email-input {
+  display: flex;
+  gap: 30px;
+  padding: 15px 10px;
+  border-radius: 45px;
+  background: #32323B;
+  padding-right: 80px;
+  
+}
+#img-user{
+    height: 5vh;
+}
+.footer-email-input input {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #a0a0a0;
+  font-family: Outfit;
+  font-size: 18px;
+  
+}
+.footer-subscribe {
+  font-size: 18px;
+  padding: 15px 23px;
+  border-radius: 45px;
+  background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 103.51%);
+  cursor: pointer;
+  transition: 2s;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.footer-bottom-right {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.footer-email-input:hover {
+  border: 2px solid white;
+  
+}
+.footer-subscribe:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+@media (max-width:1100px){
+    .footer{
+        margin: 50px 40px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+}
